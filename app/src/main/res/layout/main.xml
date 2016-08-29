@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<!--       <Button -->
+<!--         android:id="@+id/button2" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignParentRight="true" -->
+<!--         android:layout_alignParentTop="true" -->
+<!--         android:background="@drawable/btn_pink_glossy" -->
+<!--         android:text="@string/button2Text" -->
+<!--         android:textColor="#FFFFFF" /> -->
+      
+    <com.animoto.android.views.DraggableGridView
+        android:id="@+id/vgv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+    </com.animoto.android.views.DraggableGridView>
+
+    <TextView
+        android:id="@+id/txt_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" >
+    </TextView>
+
+  
+
+</RelativeLayout>
